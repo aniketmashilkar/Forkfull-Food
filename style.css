@@ -1,0 +1,372 @@
+
+body
+{
+     background:url('images/2.jpg');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+div
+{
+    font-family:  Calibri;
+    font-weight: bolder;
+}
+#div_main
+{
+    width: 1024px;
+    margin: 10px 150px 25px;
+    background: orange ;
+    height:auto;
+    float: left;
+    box-shadow: 0px 0px 100px rgba(0,0,0,0.9);
+}
+
+#logtemp
+{
+    width: 685px;
+    height:auto;
+    float: left;
+    margin: 2px;
+    border: 3px solid #99CC00;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+}
+
+#head
+{
+    width: 1014px; height: 200px;
+    background: url('images/forkful_food.png');
+    margin: 5px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+}
+#mainbody
+{
+    width: 720px;
+    height:auto;
+    float: left;
+    margin: 5px;
+}
+#adback
+{
+	margin: 5px;
+	background:white;
+}
+.images
+{
+    border-radius: 5px;
+    width: 700px;
+    height: 300px;
+    background: white;
+    float: left;
+    border: 10px solid;
+    background:black;
+    background-position: center;
+    background-size: 700px 300px;
+    
+}
+#imgdiv
+{
+    width: 700px;
+    height: 60px;
+    background: black;
+    opacity: 0.5;
+    margin-top: 240px;
+    float: left;
+}
+#b1
+{
+    border-radius: 5px;
+    width: 380px;
+    height:300px;
+    border: 1px solid;
+    float: left;
+    margin: 20px 0px;
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+.b1head
+{
+    width: 380px;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+
+}
+.b1head h1:hover
+{
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
+}
+
+#b2
+{
+    border-radius: 5px;
+    width: 330px; height: 300px;
+    border: 1px solid;
+    float: left;
+    margin: 20px 0px;
+    background: white;
+    margin-left: 5px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+.b2head
+{
+    width: 330px;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+}
+.b2head h1:hover
+{
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
+}
+#b2 img
+{
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+#b3
+{
+    border-radius: 5px;
+    width: 720px;
+    height:auto;
+    float: left;
+    background: white;
+    border: 1px solid;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+    margin: 10px 2px;
+}
+.b3head
+{
+    width: 720px;
+    height: 40px;
+    background: rgba(0,0,0,0.6);
+    margin: 0px;
+   }
+.b3head h1:hover
+{
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
+}
+#b3 img
+{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+    margin-left: 30px ;
+}
+#b3 img:hover
+{
+    width: 320px;
+    height: 220px;
+}
+.side_main
+{
+    width: 280px;
+    height: 600px;
+    float:  left;
+    text-shadow: 0px 0px 10px rgba(255,255,255,0.8);
+}
+.sidebox
+{
+    height: auto;
+    width: 280px;
+    margin: 5px;
+    background: #E8E8BF;
+    float: left;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+#ul li 
+{
+    list-style-type: none;
+    font-size: 25px;
+    margin: 5px 0px;
+
+    
+}
+#ul li a
+{
+    text-decoration: none;
+}
+#logdiv
+{
+    width: 280px;
+    height:40px;
+    background: rgba(0,0,0,0.6);
+    
+}
+#logdiv h1:hover
+{
+   text-shadow: 0px 0px 10px rgba(255,255,255,0.8); 
+}
+#login
+{
+    width: 280px;
+    height: auto;
+    float:  left;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+    background: white;
+    margin: 5px;
+}
+#foot
+{
+    width: 1014px; height: 390px;
+    background: url('images/inner_footer_overlay.png');
+    margin: 20px 5px;
+    float: left;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+}
+.link
+{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin:  2px 25px; 
+
+}
+.link img
+{
+    margin:10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.8); 
+}
+.conts
+{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin:  2px 25px; 
+}
+.di
+{
+    width: 205px;
+    height: 205px;
+    margin: 10px 30px 10px 2px;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+    float: left;
+}
+
+.he1
+{
+    width: 205px;
+    height: 35px;
+    margin-top: 170px;
+    opacity: 0.8;
+    background: black;
+    float: left;
+}
+.m1
+{
+    width: 700px;
+    height: 40px;
+    margin: 5px;
+    float: left;
+}
+#di1
+{
+    width: 475px;
+    height: 205px;
+    float: left;
+    margin: 10px 4px;
+    background: url('images/images.jpg');
+}
+#di2
+{
+    width: 720px;
+    height: auto;
+    float: left;
+    background: white;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.8);
+}
+#idg
+{
+    width: 250px;
+    height: auto;
+    margin: 3px;
+    float: left;
+    background: #E6EBE6;
+    border-right: 1px dotted;
+}
+#met
+{
+    width: 450px;
+    height: auto;
+    margin: 3px;
+    float: left;
+    background:url('images/flower-texture.jpg');
+}
+.idg
+{
+    width: 250px;
+    height: 40px;
+    color: black;
+    background: #33CC33;
+    opacity: 0.9;
+}
+.met
+{
+    
+    width: 457px;
+    height: 40px;
+    color: black;
+    background: #33CC33;
+    opacity: 0.9;
+}
+#add_res
+{
+    width: 685px;
+    height:auto;
+    float: left;
+    margin: 2px;
+    border: 15px solid #99CC00;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.9);
+    
+}
+.input
+{
+    background: #CCCCCC;
+    border: none;
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 300px;
+    font-size: 20px;
+}
+.textarea
+{
+    background: #CCCCCC;
+    border: none;
+    color: black;  
+}
+button
+{
+    margin-left: 75px;
+    
+}
+u
+{
+    font-size: 30px;
+}
+#video
+{
+     width :700px;
+     height :320px;
+     background: url('images/download.jpg') no-repeat;
+     background-size: cover;
+     border: 1px solid;
+     margin: 5px;
+}
+#pv
+{
+    color: white;
+    width: 300px;
+    margin:  0px 10px;
+}
+#video div
+{
+    float: left;
+    width: 310px;
+}

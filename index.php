@@ -1,0 +1,188 @@
+<html>
+    <head>
+        <title>Index</title> 
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style1.css">
+		<link rel="stylesheet" href="style2.css" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>  		
+    </head>
+    <?php
+        ERROR_REPORTING(E_ALL^E_NOTICE);
+    ?>
+    <body>
+	<script>
+		function myFunction() 
+		{
+		alert("Please Login.. If not the REGISTER!");
+		}
+	</script>
+        <div id="div_main" > 
+		 <div id="head"></div>
+            <nav>
+                <ul>
+                    <li id="ul2"><a href="index.php">HOME</a></li>
+                    <li id="ul2"><a href="#">RECIPES</a>
+                        <ul>                            
+                            <li><a href="#">Categories</a>
+                                <ul>
+                                    <li onclick="myFunction()"><a href="#">Soups</a></li>
+                                    <li onclick="myFunction()"><a href="#">Snacks</a></li>
+                                    <li onclick="myFunction()"><a href="#">Desert</a></li>
+                                    <li onclick="myFunction()"><a href="#">salad</a></li>
+                                </ul></li>
+                            <li><a href="#">Cuisine</a>
+                                <ul>
+                                    <li onclick="myFunction()"><a href="#">Indian</a></li>
+                                    <li onclick="myFunction()"><a href="#">Continental</a></li>
+                                    <li onclick="myFunction()"><a href="#">Chinese</a></li>
+                                    <li onclick="myFunction()"><a href="#">Mexican</a></li>
+                                    <li onclick="myFunction()"><a href="#">Russian</a></li>
+                                </ul></li>
+                        </ul>
+                    </li>
+                    <li id="ul2" onclick="myFunction()" ><a href="#">VIDEOS</a></li>
+                    <li id="ul2"><a href="#">REGISTER</a>
+                        <ul><li><a href="regform.php">Add your Details</a></li></ul></li>
+                    <li id="ul2"><a href="#">LOGIN</a>
+                        <ul>
+                            <li><a href="login.php">USER</a>
+                            <li><a href="adlogin.php">ADMIN</a>
+                        </ul>
+                    </li>
+                </ul>
+			</nav>
+			
+			<form class="nav">
+				<input type="text" placeholder='Search Here' id="search">
+				<a href="#"><input type="button" value="SEARCH" id="box"></a>
+				<p>Follow Us:</p>
+				<a href="images/Twitter.htm"><img src="images/twitter-logo.png"></a>
+				<a href="images/Facebook - Log In.htm"><img src="images/tp-fb-icon.gif"></a>
+				<a href="images/Gmail.htm"><img src="images/tp-gp-icon.gif"></a>
+			</form>
+			
+			<div id="mainbody">
+				<div class="images">
+					<div id="header">
+						<div class="wrap">
+							<div id="slide-holder">
+							   <div id="slide-runner">
+								<a href=""><img id="slide-img-1" src="images/slider/Thai-street-food-1-of-11.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-2" src="images/slider/Thai-Food-Tom-Yam-Kung.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-3" src="images/slider/scroll1.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-4" src="images/slider/402852.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-5" src="images/slider/cottage-cheese-steak_med.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-6" src="images/slider/chocolate-thunder-from-down-under.png" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-7" src="images/slider/home-image-25-jul-2012.jpg" class="slide" alt="" /></a>
+								<a href=""><img id="slide-img-8" src="images/slider/fruits_drink.jpeg" class="slide" alt="" /></a>
+									<div id="slide-controls">
+									<p id="slide-client" class="text"><strong>post: </strong><span></span></p>
+									<p id="slide-desc" class="text"></p>
+									<p id="slide-nav"></p>	
+									</div>
+								</div>
+							</div>
+						    <script type="text/javascript">
+							 if(!window.slider) var slider={};slider.data=[{"id":"slide-img-1","client":"THAI","desc":"Thai street food"},{"id":"slide-img-2","client":"THAI","desc":"Tom Yam Kung"},{"id":"slide-img-3","client":"ITALLIAN","desc":"SPRING SALAD"},{"id":"slide-img-4","client":"INDIAN","desc":"ROLLS"},{"id":"slide-img-5","client":"CONTINENTAL","desc":"Cottage Cheese Steak"},{"id":"slide-img-6","client":"CHOCOLATE RECIPES","desc":"Chocolate Thunder"},{"id":"slide-img-7","client":"INDIAN RECIPES","desc":"PANEER SIZZLERS"},{"id":"slide-img-8","client":"DRINKS","desc":"Fruits Drink"}];
+						    </script>
+						</div>
+					</div>
+                </div>                        
+                
+                <div id="b3">
+                    <div class="b3head">
+                        <h1 style="margin: 0px;color: white;width: 200px;float: left"> Photo Gallery </h1>
+                    </div>
+                    <marquee behavior="alternate">
+                    <img src="images/photogal/2-Indian-food.jpg">
+                    <img src="images/photogal/breakfast.jpg">
+                    <img src="images/photogal/images (1).jpg">
+                    <img src="images/photogal/images.jpg">
+                    </marquee>       
+                </div>
+            </div>
+            <div class="side_main">
+            <div class="sidebox">
+                <img src="images/best.jpg">
+                <ul id="ul">
+                    <li onclick="myFunction()"><a href="#">Indian Recipies</a></li>
+                    <li onclick="myFunction()"><a href="#">Salad Recipies</a></li>
+                    <li onclick="myFunction()"><a href="#">Soups  Recipies</a></li>
+                    <li onclick="myFunction()"><a href="#">Continental Recipies</a></li>
+                    <li onclick="myFunction()"><a href="#">Snacks Recipies</a></li>
+                    <li onclick="myFunction()"><a href="#">Desserts Recipies</a></li>
+                </ol>
+            </div>
+            <div id="login">
+                <img id="slide-img-1" src="images/androidhello.gif" width="270px" height="270px" alt="Hello Welcome!" />
+			</div>            
+            </div>
+			
+            <nav>
+                <ul>
+                    <li id="ul2"><a href="index.php">HOME</a></li>
+                    <li id="ul2"><a href="#">RECIPES</a>
+                        <ul>                            
+                            <li><a href="#">Categories</a>
+                                <ul>
+                                    <li onclick="myFunction()"><a href="#">Soups</a></li>
+                                    <li onclick="myFunction()"><a href="#">Snacks</a></li>
+                                    <li onclick="myFunction()"><a href="#">Desert</a></li>
+                                    <li onclick="myFunction()"><a href="#">salad</a></li>
+                                </ul></li>
+                            <li><a href="#">Cuisine</a>
+                                <ul>
+                                    <li onclick="myFunction()"><a href="#">Indian</a></li>
+                                    <li onclick="myFunction()"><a href="#">Continental</a></li>
+                                    <li onclick="myFunction()"><a href="#">Chinese</a></li>
+                                    <li onclick="myFunction()"><a href="#">Mexican</a></li>
+                                    <li onclick="myFunction()"><a href="#">Russian</a></li>
+                                </ul></li>
+                        </ul>
+                    </li>
+                    <li id="ul2" onclick="myFunction()" ><a href="#">VIDEOS</a></li>
+                    <li id="ul2"><a href="#">REGISTER</a>
+                        <ul><li><a href="regform.php">Add your Details</a></li></ul></li>
+                    <li id="ul2"><a href="#">LOGIN</a>
+                        <ul>
+                            <li><a href="login.php">USER</a>
+                            <li><a href="adlogin.php">ADMIN</a>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            
+			<div id="foot">
+               <div style="float: left; margin: 5px 10px;">
+                <p style="border-bottom: 4px solid;">COMMENTS :</p>
+                <form method="post">
+            <table cellspacing="2" cellpadding="2" >
+                <tr><td>NAME :</td></tr>
+                <tr><td colspan="2"><input style="width: 340px;" type="text" required  placeholder='Name' maxlength="16"> </td></tr>
+                <tr><td>EMAIL :</td></tr>
+                <tr><td><input style="width: 340px;" type="email" required  placeholder='Email Address'> </td></tr>
+                <tr><td >COMMENT :</td></tr>
+                <tr><td colspan="2"><textarea cols="40" rows="5" required placeholder='Comments'></textarea></td></tr>
+                <tr><td colspan="2"><button type="submit" style="margin: 10px 10px;">SUBMIT</button></td></tr>
+            </table>
+            </form>
+               </div>
+               
+               <div class="link">
+                <p style="border-bottom: 4px solid;">SOCIAL NETWORKS :</p>
+                <a href="facebook.htm"><img src="images/facebook1.jpg"></a>
+                <a href="facebook.htm"><img src="images/twitter1.jpg"></a>
+                <a href="facebook.htm"><img src="images/yahoo1.jpg"></a>
+                <a href="facebook.htm"><img src="images/google+.jpg"></a> 
+            </div>
+            <div class="conts">
+                <p style="border-bottom: 4px solid;">CONTACT FORKFULL FOOD :</p>
+                 <p style=" font-size: 20px;color: orange;">E-MAIL : aniket@forkfullfood.com & vikas@forkfullfood.com<br><br><br>
+                 CONTACT NO: +91&nbsp9029921941 & +91&nbsp8879181153</p>
+            </div>
+            <p style="clear:both; text-align: center; font-size: 18px; font-family: calibri;">© Copyright Forkfull Food Convergence Limited 2017 All rights reserved.</p>         
+        </div>  
+    </body>
+</html>
